@@ -99,7 +99,7 @@ Click the button to deploy instantly:
 MIT License. See [LICENSE](LICENSE).
 
 ## 👋 Get in Touch
-Got questions? Open an issue or ping me at [your-email@example.com].
+Got questions? Open an issue or ping me at nicholas.kuntz@cloudflare.com.
 
 ---
 *Made with ☕ for audio transcription fans!*
