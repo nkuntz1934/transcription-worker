@@ -17,19 +17,6 @@ Turn your audio files into text with this slick Cloudflare Worker powered by the
 - An OpenAI API key with Whisper API access.
 - `wrangler` CLI for manual deployment.
 
-## 🔑 Set Up OpenAI API Key
-1. **Grab Your Key**:
-   - Head to [OpenAI](https://platform.openai.com/), log in, and generate an API key.
-   - Ensure you’ve got credits for the Whisper API.
-
-2. **Add to Cloudflare**:
-   - **Dashboard**: Go to Workers & Pages > Your Worker > Settings > Variables > Add `OPENAI_API_KEY`.
-   - **Wrangler CLI**:
-     ```bash
-     wrangler secret put OPENAI_API_KEY
-     ```
-     Paste your key when prompted.
-
 ## 🚀 Deployment
 
 ### Option 1: One-Click Deploy
@@ -71,6 +58,19 @@ Click the button to deploy instantly:
 
 6. **Test It**:
    Open `https://transcription-worker.your-subdomain.workers.dev` in your browser.
+
+   ## 🔑 Set Up OpenAI API Key
+1. **Grab Your Key**:
+   - Head to [OpenAI](https://platform.openai.com/), log in, and generate an API key.
+   - Ensure you’ve got credits for the Whisper API.
+
+2. **Add to Cloudflare**:
+   - **Dashboard**: Go to Workers & Pages > Your Worker > Settings > Variables > Add `OPENAI_API_KEY`.
+   - **Wrangler CLI**:
+     ```bash
+     wrangler secret put OPENAI_API_KEY
+     ```
+     Paste your key when prompted.
 
 ## 🔄 How It Works
 1. **Upload**: Drop an audio file into the web interface.
