@@ -35,19 +35,19 @@ Turn your audio files into text with this slick Cloudflare Worker powered by the
 ### Option 1: One-Click Deploy
 Click the button to deploy instantly:
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/your-username/audio-transcription-worker)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/nk1934/transcription-worker)
 
 ### Option 2: Manual Deployment
 1. **Clone the Repo**:
    ```bash
-   git clone https://github.com/your-username/audio-transcription-worker.git
-   cd audio-transcription-worker
+   git clone https://github.com/nk1934/transcription-worker.git
+   cd transcription-worker
    ```
 
 2. **Set Up `wrangler.toml`**:
    Add this to `wrangler.toml`:
    ```toml
-   name = "audio-transcription-worker"
+   name = "transcription-worker"
    main = "index.js"
    compatibility_date = "2025-05-27"
    workers_dev = true
@@ -70,7 +70,7 @@ Click the button to deploy instantly:
    ```
 
 6. **Test It**:
-   Open `https://audio-transcription-worker.your-subdomain.workers.dev` in your browser.
+   Open `https://transcription-worker.your-subdomain.workers.dev` in your browser.
 
 ## 🔄 How It Works
 1. **Upload**: Drop an audio file into the web interface.
