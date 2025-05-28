@@ -1,0 +1,6 @@
+{
+  "name": "audio-transcription-worker",
+  "main": "index.js",
+  "compatibility_date": "2025-05-27",
+  "workers_dev": true,
+}
