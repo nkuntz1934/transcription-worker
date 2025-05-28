@@ -35,12 +35,12 @@ Turn your audio files into text with this slick Cloudflare Worker powered by the
 ### Option 1: One-Click Deploy
 Click the button to deploy instantly:
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/nk1934/transcription-worker)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/nkuntz1934/transcription-worker)
 
 ### Option 2: Manual Deployment
 1. **Clone the Repo**:
    ```bash
-   git clone https://github.com/nk1934/transcription-worker.git
+   git clone https://github.com/nkuntz1934/transcription-worker.git
    cd transcription-worker
    ```
 
